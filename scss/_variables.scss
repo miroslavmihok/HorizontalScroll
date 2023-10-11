@@ -1,0 +1,22 @@
+// GOOGLE FONT
+@import url("https://fonts.googleapis.com/css2?family=Galada&family=Lato&family=Montserrat&family=Poppins&family=Roboto:wght@400;900&display=swap");
+
+// COLORS
+
+$--clr-poppy: #da2c38;
+$--clr-springgreen: #226f54;
+$--clr-pistachio: #87c38f;
+$--clr-lemon: #f4f0bb;
+$--clr-bistre: #43291f;
+
+@mixin flex-row-center() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-column-center() {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}

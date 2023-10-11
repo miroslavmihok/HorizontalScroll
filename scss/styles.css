@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Galada&family=Lato&family=Montserrat&family=Poppins&family=Roboto:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Galada&family=Lato&family=Montserrat&family=Poppins&family=Roboto:wght@400;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+body:not(i) {
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  display: block;
+}
+
+button {
+  outline: none;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow-x: hidden;
+}
+main .container__page {
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+main .container__page:nth-child(1) {
+  background-color: #da2c38;
+}
+main .container__page:nth-child(2) {
+  background-color: #226f54;
+}
+main .container__page:nth-child(3) {
+  background-color: #87c38f;
+}
+main .container__page h1 {
+  font-size: 7rem;
+  color: #f4f0bb;
+  letter-spacing: 0.2rem;
+  font-weight: 900;
+}
+main .container__page .photo {
+  width: 50vw;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .container__page .photo:nth-child(1) {
+  background: url("../assets/photo1.jpg") no-repeat center/cover;
+}
+main .container__page .photo:nth-child(2) {
+  background: url("../assets/photo2.jpg") no-repeat center/cover;
+}/*# sourceMappingURL=styles.css.map */
